@@ -52,14 +52,6 @@ app:
     max-genre-ids: 50
     max-book-id-length: 255
 
-springdoc:
-  swagger-ui:
-    # Swagger UI OAuth2 設定
-    oauth:
-      client-id: swagger-ui-client
-      use-pkce-with-authorization-code-grant: true
-      scopes: openid,profile,email
-
 # ============================================
 # Logging Configuration
 # ============================================
